@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#canvas1 {
+    position: absolute;
+}
+
+.controls {
+    position: absolute;
+    z-index: 100;
+}
+
+img {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 30px;
+    font-family: 'Bangers', cursive;
+    margin: 20px;
+    color: white;
+    background: black;
+    border: 3px solid black;
+    transition: all 200ms ease;
+}
+
+button:hover {
+    color: black;
+    background: white;
+}
